@@ -2,15 +2,9 @@
 # ==============================================
 # Script: setup_infra.sh
 # Autor: Francisco Abel
-# Data: $(date +%d/%m/%Y)
+# Data: 14/08/2025
 # Objetivo: Configuração automática do servidor TechLog no Debian 13
 # ==============================================
-
-# ==== Verificar se é root ====
-if [ "$EUID" -ne 0 ]; then
-    echo "⚠️  Por favor, execute como root."
-    exit 1
-fi
 
 # 1. Criação de grupos
 echo "📌 Criando grupos..."
